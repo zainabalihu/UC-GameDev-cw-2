@@ -12,7 +12,7 @@ namespace cw2._2
         {
             String heroName = "Jimmy", villainName = "Simon";
             int heroPower = 1500, villainPower = 1600;
-            
+
             Console.WriteLine("The strongest is");
 
             if (heroPower > villainPower)
@@ -30,6 +30,26 @@ namespace cw2._2
             {
                 Console.WriteLine(" simon ");
             }
+
+            
+
+                double playerSpeed1 = 5.6, playerSpeed2 = 2.5;
+                double playerSpeed = (playerSpeed1 + playerSpeed2);
+
+            void playerspeed() 
+            { 
+            
+                Console.WriteLine(" player speed 1 is " + playerSpeed1 + " player speed 2 is " + playerSpeed2 );
+            }
+
+            playerspeed();
+            playerspeed();
+
+
+
+
+
+
 
 
 
